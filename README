@@ -1,0 +1,25 @@
+# Semantic Search Backend Service
+
+This is a simple semantic search backend service built with **Node.js**, **OpenAI embeddings**, and an **in-memory vector store**.
+
+## Features
+
+- Text and image search using embeddings.
+- Vector storage in memory (MemoryVectorStore).
+- Multer for image uploads.
+
+## Setup Instructions
+
+### 1. Clone the repository
+
+### 2. Install dependencies
+npm install
+
+### 3. Set up your environment variables
+Create a `.env` file in the root and add the following:
+OPENAI_ENDPOINT=
+OPENAI_API_KEY=
+OPENAI_DEPLOYMENT_NAME=
+
+### 4. Start the server
+npm start
